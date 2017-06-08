@@ -64,6 +64,7 @@ RUN apt-get install -y  ipython \
 
 RUN pip install pytesseract
 RUN pip install imageio
+RUN pip install pyocr 
 RUN pip install flask
 EXPOSE 5000
 RUN mkdir -p /home/src
